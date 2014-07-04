@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\SFAO User Management\CEWebDemo\CEWebDemo\UsageOAuthTestWeb\dependencies\SageNA.CE.UM.Client.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8E601777-6289-4352-A266-68D9E850BEC6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>SageNA.CE.UM.Client</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.5055.39667</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Mvc" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="SageNA.CE.UMClientInterface">
+      <HintPath>lib\SageNA.CE.UMClientInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="CEDataServiceContract">
+      <HintPath>lib\CEDataServiceContract.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.ServiceRuntime" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Security" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="%003C%003Ef__AnonymousType0`1.cs" />
+    <Compile Include="%003C%003Ef__AnonymousType1`3.cs" />
+    <Compile Include="%003C%003Ef__AnonymousType2`2.cs" />
+    <Compile Include="%003C%003Ef__AnonymousType3`3.cs" />
+    <Compile Include="SageNA\CE\UM\Client\UMAuthorizeAttribute.cs" />
+    <Compile Include="SageNA\CE\UM\Client\CacheManager.cs" />
+    <Compile Include="SageNA\CE\UM\Client\SSOController.cs" />
+    <Compile Include="SageNA\CE\UM\Client\CertificateHelper.cs" />
+    <Compile Include="SageNA\CE\UM\Client\ConfigHelper.cs" />
+    <Compile Include="SageNA\CE\UM\Client\Constants.cs" />
+    <Compile Include="SageNA\CE\UM\Client\FormatHelper.cs" />
+    <Compile Include="SageNA\CE\UM\Client\SSOServiceCallHelper.cs" />
+    <Compile Include="SageNA\CE\UM\Client\TraceHelper.cs" />
+    <Compile Include="SageNA\CE\UM\Client\UriHelper.cs" />
+    <Compile Include="SageNA\CE\UM\Client\ISSOState.cs" />
+    <Compile Include="SageNA\CE\UM\Client\SSOSession.cs" />
+    <Compile Include="SageNA\CE\UM\Client\SSOSessionMap.cs" />
+    <Compile Include="SageNA\CE\UM\Client\WebSessionAccessHelper.cs" />
+    <Compile Include="SageNA\CE\UM\Client\SSOState.cs" />
+    <Compile Include="SageNA\CE\UM\Client\UMOAuth.cs" />
+    <Compile Include="SageNA\CE\UM\Client\UMServices.cs" />
+    <Compile Include="SageNA\CE\UM\Client\UMWebApiConfig.cs" />
+    <Compile Include="SageNA\CE\UM\Client\UMClient.cs" />
+    <Compile Include="SageNA\CE\UM\Client\SageIdAccountStatus.cs" />
+    <Compile Include="SageNA\CE\UM\Client\UMRouteConfig.cs" />
+    <Compile Include="SageNA\CE\UM\Client\OAuth\TokenDecryptionUtil.cs" />
+    <Compile Include="SageNA\CE\UM\Client\OAuth\TokenUtil.cs" />
+    <Compile Include="SageNA\CE\UM\Client\OAuth\TokenValidationStatus.cs" />
+    <Compile Include="SageNA\CE\UM\Client\OAuth\TokenValidationStatusMapper.cs" />
+    <Compile Include="SageNA\CE\UM\Client\OAuth\AccessTokenValidator.cs" />
+    <Compile Include="SageSSO\ServiceReferences\IIdentityManagementServiceSoap.cs" />
+    <Compile Include="SageSSO\ServiceReferences\GetUserIdentityRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\RevokeAuthorizationRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\AuthorizationSummary.cs" />
+    <Compile Include="SageSSO\ServiceReferences\AuthorizationPermissionSet.cs" />
+    <Compile Include="SageSSO\ServiceReferences\CultureSpecificValue.cs" />
+    <Compile Include="SageSSO\ServiceReferences\GetAuthorizationsForClientResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\GetAuthorizationsForClientRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\AuthorizedClientSummary.cs" />
+    <Compile Include="SageSSO\ServiceReferences\GetAuthorizedClientsResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\GetAuthorizedClientsRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\Authorization.cs" />
+    <Compile Include="SageSSO\ServiceReferences\ClientInstanceAuthorization.cs" />
+    <Compile Include="SageSSO\ServiceReferences\ClientAuthorization.cs" />
+    <Compile Include="SageSSO\ServiceReferences\ClientType.cs" />
+    <Compile Include="SageSSO\ServiceReferences\GetAuthorizationSummaryResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\GetAuthorizationSummaryRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\ActivationLinkContextItem.cs" />
+    <Compile Include="SageSSO\ServiceReferences\ActivationLinkContextResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\ActivationLinkContextRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\SessionExtendResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\SessionExtendRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\SessionSignOffResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\SessionSignOffRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\SessionRemoveParticipantResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\SessionRemoveParticipantRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\ManageAuthorisationFailedResult.cs" />
+    <Compile Include="SageSSO\ServiceReferences\ManageAuthorisationFailureReason.cs" />
+    <Compile Include="SageSSO\ServiceReferences\ManageAuthorisationSuccessResult.cs" />
+    <Compile Include="SageSSO\ServiceReferences\EndManageAuthorisationAttemptResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\EndManageAuthorisationAttemptRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\StartManageAuthorisationAttemptResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\StartManageAuthorisationAttemptRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\CaptchaTheme.cs" />
+    <Compile Include="SageSSO\ServiceReferences\PasswordChangeFailedResult.cs" />
+    <Compile Include="SageSSO\ServiceReferences\PasswordChangeFailureReason.cs" />
+    <Compile Include="SageSSO\ServiceReferences\PasswordChangeSuccessResult.cs" />
+    <Compile Include="SageSSO\ServiceReferences\EndPasswordChangeAttemptResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\EndPasswordChangeAttemptRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\StartPasswordChangeAttemptResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\StartPasswordChangeAttemptRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\PasswordRecoveryFailedResult.cs" />
+    <Compile Include="SageSSO\ServiceReferences\PasswordRecoveryFailureReason.cs" />
+    <Compile Include="SageSSO\ServiceReferences\PasswordRecoverySuccessResult.cs" />
+    <Compile Include="SageSSO\ServiceReferences\EndPasswordRecoveryAttemptResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\EndPasswordRecoveryAttemptRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\StartPasswordRecoveryAttemptResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\StartPasswordRecoveryAttemptRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\StartExistingUserRegistrationAttemptRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\RegistrationFailedResult.cs" />
+    <Compile Include="SageSSO\ServiceReferences\RegistrationFailureReason.cs" />
+    <Compile Include="SageSSO\ServiceReferences\RegistrationSuccessResult.cs" />
+    <Compile Include="SageSSO\ServiceReferences\FailedResult.cs" />
+    <Compile Include="SageSSO\ServiceReferences\FailureReason.cs" />
+    <Compile Include="SageSSO\ServiceReferences\SuccessResult.cs" />
+    <Compile Include="SageSSO\ServiceReferences\EndRegistrationAttemptResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\EndRegistrationAttemptRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\StartRegistrationAttemptResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\StartNewUserRegistrationAttemptRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\EndSignOnAttemptResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\EndSignOnAttemptRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\StartSignOnAttemptResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\StartSignOnAttemptRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\MarkForcePasswordChangeOnNextSignOnRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\UpdatePasswordWithActivationRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\ListRegisteredUserIdentitiesResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\Updateable.cs" />
+    <Compile Include="SageSSO\ServiceReferences\Identity.cs" />
+    <Compile Include="SageSSO\ServiceReferences\UserIdentity.cs" />
+    <Compile Include="SageSSO\ServiceReferences\PassportInfo.cs" />
+    <Compile Include="SageSSO\ServiceReferences\WebApplication.cs" />
+    <Compile Include="SageSSO\ServiceReferences\AutomaticSignOnMode.cs" />
+    <Compile Include="SageSSO\ServiceReferences\Principal.cs" />
+    <Compile Include="SageSSO\ServiceReferences\X509Principal.cs" />
+    <Compile Include="SageSSO\ServiceReferences\SecretkeyPrincipal.cs" />
+    <Compile Include="SageSSO\ServiceReferences\UserPrincipal.cs" />
+    <Compile Include="SageSSO\ServiceReferences\EmailConfiguration.cs" />
+    <Compile Include="SageSSO\ServiceReferences\EmailType.cs" />
+    <Compile Include="SageSSO\ServiceReferences\WebApplicationEmailConfiguration.cs" />
+    <Compile Include="SageSSO\ServiceReferences\AuthorizationClient.cs" />
+    <Compile Include="SageSSO\ServiceReferences\MobileAuthorizationClient.cs" />
+    <Compile Include="SageSSO\ServiceReferences\AuthenticationType.cs" />
+    <Compile Include="SageSSO\ServiceReferences\DesktopAuthorizationClient.cs" />
+    <Compile Include="SageSSO\ServiceReferences\WebAuthorizationClient.cs" />
+    <Compile Include="SageSSO\ServiceReferences\SecretKeyAuthenticationInfo.cs" />
+    <Compile Include="SageSSO\ServiceReferences\X509AuthenticationInfo.cs" />
+    <Compile Include="SageSSO\ServiceReferences\Profile.cs" />
+    <Compile Include="SageSSO\ServiceReferences\ProfileItem.cs" />
+    <Compile Include="SageSSO\ServiceReferences\UserAccountPolicy.cs" />
+    <Compile Include="SageSSO\ServiceReferences\HardLockPolicy.cs" />
+    <Compile Include="SageSSO\ServiceReferences\SoftLockPolicyLockLevel.cs" />
+    <Compile Include="SageSSO\ServiceReferences\SecretKeyIdentity.cs" />
+    <Compile Include="SageSSO\ServiceReferences\X509Identity.cs" />
+    <Compile Include="SageSSO\ServiceReferences\ListRegisteredUserIdentitiesRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\ListSortOrder.cs" />
+    <Compile Include="SageSSO\ServiceReferences\GetWebApplicationAutoSignOnStatusResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\GetWebApplicationAutoSignOnStatusRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\RemoveWebApplicationAutoSignOnRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\ApplyWebApplicationAutoSignOnRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\WebApplicationInfo.cs" />
+    <Compile Include="SageSSO\ServiceReferences\GetRegisteredWebApplicationsResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\GetRegisteredWebApplicationsRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\UnregisterFromWebApplicationRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\RegisterForWebApplicationRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\ResendActivationEmailRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\GetGracePeriodStatusResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\GetGracePeriodStatusRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\GetActivationStatusResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\ActivationStatus.cs" />
+    <Compile Include="SageSSO\ServiceReferences\GetActivationStatusRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\MarkActivatedRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\GetSignOnBlockStatusResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\GetSignOnBlockStatusRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\RemoveSignOnBlockRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\ApplySignOnBlockRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\RemoveLockRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\ApplyHardLockRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\GetEffectiveStateResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\EffectiveState.cs" />
+    <Compile Include="SageSSO\ServiceReferences\GetEffectiveStateRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\WebApplicationRegistrationSummary.cs" />
+    <Compile Include="SageSSO\ServiceReferences\GetSummaryResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\GetSummaryRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\GetScriptResultResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\ScriptExecutionState.cs" />
+    <Compile Include="SageSSO\ServiceReferences\GetScriptResultRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\ExecuteScriptResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\ScriptArgument.cs" />
+    <Compile Include="SageSSO\ServiceReferences\ExecuteScriptRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\ListSecretKeyIdentitiesResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\DeleteSecretKeyIdentityRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\UpdateSecretKeyIdentityResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\UpdateSecretKeyIdentityRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\CreateSecretKeyIdentityResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\CreateSecretKeyIdentityRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\GetSecretKeyIdentityResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\GetSecretKeyIdentityRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\DeleteX509IdentityRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\UpdateX509IdentityResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\UpdateX509IdentityRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\CreateX509IdentityResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\CreateX509IdentityRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\GetX509IdentityResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\GetX509IdentityRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\ListUserIdentitiesResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\ListUserIdentitiesRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\DeleteUserIdentityRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\UpdateUserIdentityResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\UpdateUserIdentityRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\CreateUserIdentityResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\CreateUserIdentityRequest.cs" />
+    <Compile Include="SageSSO\ServiceReferences\GetUserIdentityResponse.cs" />
+    <Compile Include="SageSSO\ServiceReferences\IIdentityManagementServiceSoapChannel.cs" />
+    <Compile Include="SageSSO\ServiceReferences\IdentityManagementServiceSoapClient.cs" />
+    <Compile Include="SageSSO\ServiceReferences\IRemoteScriptingServiceSoap.cs" />
+    <Compile Include="SageSSO\ServiceReferences\IRemoteScriptingServiceSoapChannel.cs" />
+    <Compile Include="SageSSO\ServiceReferences\RemoteScriptingServiceSoapClient.cs" />
+    <Compile Include="SageSSO\ServiceReferences\IUserAccountManagementServiceSoap.cs" />
+    <Compile Include="SageSSO\ServiceReferences\IUserAccountManagementServiceSoapChannel.cs" />
+    <Compile Include="SageSSO\ServiceReferences\UserAccountManagementServiceSoapClient.cs" />
+    <Compile Include="SageSSO\ServiceReferences\IWebSSOServiceSoap.cs" />
+    <Compile Include="SageSSO\ServiceReferences\IWebSSOServiceSoapChannel.cs" />
+    <Compile Include="SageSSO\ServiceReferences\WebSSOServiceSoapClient.cs" />
+    <Compile Include="SageSSO\ServiceReferences\IUserAuthorizationManagementServiceSoap.cs" />
+    <Compile Include="SageSSO\ServiceReferences\IUserAuthorizationManagementServiceSoapChannel.cs" />
+    <Compile Include="SageSSO\ServiceReferences\UserAuthorizationManagementServiceSoapClient.cs" />
+    <Compile Include="SageSSO\ServiceReferences\IUserAuthorizationManagementServiceWeb.cs" />
+    <Compile Include="SageSSO\ServiceReferences\IUserAuthorizationManagementServiceWebChannel.cs" />
+    <Compile Include="SageSSO\ServiceReferences\UserAuthorizationManagementServiceWebClient.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
